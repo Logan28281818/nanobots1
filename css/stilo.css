@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: #ffffff;
+}
+
+
+.navbar {
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #f39c12;
+    color: #000000;
+    border-radius: 5px;
+}
+
+/* Espacio debajo de la barra */
+header {
+    margin-bottom: 80px;
+}
+
+/* Box model del contenido */
+.content-box {
+    background-color: #151515;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.content-box h1, .content-box h2 {
+    color: #f39c12;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-item {
+    background-color: #2e2e2e;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.box-item p {
+    color: #e0e0e0;
+}
+
+/* Pie de página */
+footer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+}
